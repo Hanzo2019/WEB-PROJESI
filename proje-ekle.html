@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proje Ekle - DIY Platformu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #ffa600;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h2 {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 0.95rem;
+        }
+        .form-container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .form-container h1 {
+            text-align: center;
+            color: #ffa600;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        .input-group input, .input-group textarea, .input-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .input-group textarea {
+            resize: vertical;
+            height: 100px;
+        }
+        .btn {
+            width: 100%;
+            background-color: #ffa600;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #e09400;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>🛠️ DIY Platformu</h2>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="kesfet.html">Keşfet</a>
+            <a href="proje-ekle.html">Proje Ekle</a>
+            <a href="login.html">Giriş Yap</a>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <h1>Yeni Proje Paylaş</h1>
+        <form>
+            <div class="input-group">
+                <label for="title">Proje Başlığı</label>
+                <input type="text" id="title" placeholder="Örn: Ahşap Duvar Rafları" required>
+            </div>
+            <div class="input-group">
+                <label for="category">Kategori</label>
+                <select id="category">
+                    <option value="ahsap">Ahşap Tasarım</option>
+                    <option value="geridonusum">Geri Dönüşüm</option>
+                    <option value="dekorasyon">Ev Dekorasyonu</option>
+                    <option value="bahce">Bahçe & Balkon</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="description">Proje Açıklaması ve Adımları</label>
+                <textarea id="description" placeholder="Projenizi nasıl yaptığınızı kısaca anlatın..." required></textarea>
+            </div>
+            <div class="input-group">
+                <label for="image">Proje Görseli Yükle</label>
+                <input type="file" id="image" accept="image/*">
+            </div>
+            <button type="submit" class="btn">Projeyi Yayınla</button>
+        </form>
+    </div>
+
+</body>
+</html>
