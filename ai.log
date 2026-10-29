@@ -1,0 +1,18 @@
+[AI LOG - DIY Platformu Proje Günlüğü]
+
+1. Proje Kapsamı ve Hedefler:
+- Tamamen DIY (Kendin Yap) platformuna odaklı web demosu geliştirilmesi.
+- Not alma veya ekstra özelliklerin kapsam dışı bırakılması.
+- Tasarım dili ve tema rengi olarak #ffa600 (turuncu/kehribar) tonunun benimsenmesi.
+- Demo odaklı ilerlenerek öncelikle tüm temel sayfa iskeletlerinin tamamlanması, kullanıcı girişi/arka plan detaylarının sonraki aşamalara bırakılması.
+
+2. Git ve GitHub Entegrasyonu:
+- Yerel Git programı kullanılmadığı için tüm dosya yüklemelerinin GitHub web arayüzü üzerinden sürükle-bırak yöntemiyle gerçekleştirilmesi.
+- Repository: Hanzo2019/WEB-PROJESI-
+
+3. Oluşturulan Dosyalar ve İlerleme Adımları:
+- README.md: Proje açıklamaları sadeleştirilerek ilk aşamada yüklendi.
+- index.html: Ana sayfa iskeleti tasarlandı, ince ve zarif bir header alanı oluşturuldu, menü linkleri birbirine bağlandı.
+- login.html: Giriş yapma arayüzü ve temel form yapısı kuruldu.
+- kesfet.html: Popüler DIY projelerinin ve kategorilerinin listelendiği keşif sayfası eklendi.
+- proje-ekle.html: Kullanıcıların yeni proje başlığı, açıklaması, kategorisi ve görsel ekleyebileceği form sayfası tasarlandı.
